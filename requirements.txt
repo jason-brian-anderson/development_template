@@ -1,0 +1,8 @@
+jupyter
+transformers
+datasets
+evaluate
+libtorrent
+matplotlib
+pandas
+numpy

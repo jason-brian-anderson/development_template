@@ -1,0 +1,22 @@
+
+{
+	"name": "development_container",
+	"build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		"context": "..",
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		//"--runtime=nvidia",  # does not seem to be needed?
+		"--gpus",
+		"all"
+	],
+	"features": {
+		//"ghcr.io/devcontainers-contrib/features/black:2": {},
+		//"ghcr.io/devcontainers-contrib/features/pylint:2": {}
+		
+	},
+	"postCreateCommand": "./start_jupyter.sh"
+
+}
