@@ -9,6 +9,7 @@ WORKDIR /
 COPY requirements.txt requirements.txt  
 
 
+
 RUN conda install -y pip
 RUN pip install  -r requirements.txt
 EXPOSE 80
