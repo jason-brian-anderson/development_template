@@ -2,6 +2,7 @@
 Runs deep learning stuff on top of docker in windows 10 on wsl2
 I tested this out on windows10 wsl2 system with a 3080gtx/10GB 
 
+See https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template for information on cloning this repo
 
 
 

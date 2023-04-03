@@ -24,6 +24,10 @@
 		"GitHub.vscode-pull-request-github"
 
 	],
+	"mounts": [
+		"source=/my/local/folder,target=/container/folder,type=bind",
+		"source=my-named-volume,target=/container/volume,type=volume"
+	  ],
 
 	"postCreateCommand": "./start_jupyter.sh"
 
