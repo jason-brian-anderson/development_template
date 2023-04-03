@@ -1,5 +1,10 @@
-# Development Environment to build docker containers on windows 10 desktop w/ 3080/10G
-Runs deep learning stuff on top of docker in windows 10 on wsl2 v 
+# Template Development Environment to build nlp docker container apps
+Runs deep learning stuff on top of docker in windows 10 on wsl2
+I tested this out on windows10 wsl2 system with a 3080gtx/10GB 
+
+
+
+
 
 see nvidia_tests.ipynb file for source of below info
 
