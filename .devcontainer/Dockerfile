@@ -14,8 +14,7 @@ RUN conda install -y pip
 RUN pip install  -r requirements.txt
 EXPOSE 80
 
-RUN echo "set -o vi" >> /root/.bashr
-
+RUN echo "set -o vi" >> /root/.bashrc
 RUN git config --global user.email jason.anderson.professional@gmail.com
 RUN git config --global user.name "Jason Anderson"
 RUN git config --global core.editor "code --wait"
