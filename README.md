@@ -1,5 +1,5 @@
 # Development Environment 
-Runs deep learning stuff on top of docker in windows 10 on wsl2 via GPU
+Runs deep learning stuff on top of docker in windows 10 on wsl2 via my crappy 10Gb 3080 GTX
 
 see nvidia_tests.ipynb file for source of below info
 
