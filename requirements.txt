@@ -1,8 +1,13 @@
+#base
 jupyter
-transformers
-datasets
-evaluate
-libtorrent
 matplotlib
 pandas
 numpy
+
+#hugging face
+datasets
+transformers[sentencepiece]
+evaluate
+
+# for alpaca torrents
+libtorrent
