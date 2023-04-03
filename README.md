@@ -6,7 +6,7 @@ I tested this out on windows10 wsl2 system with a 3080gtx/10GB
 
 
 
-see nvidia_tests.ipynb file for source of below info
+see nvidia_tests.ipynb file in this repo for source of below info
 
 ## 4/1/23 update 
 3 things required underneath:
