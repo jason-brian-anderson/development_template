@@ -1,22 +1,22 @@
 
 {
 	"name": "development_container",
+
+	"mounts": [
+		"source=D:\\mnt,target=/mnt,type=bind,consistency=cached"
+	  ],
+
 	"build": {
-		// Sets the run context to one level up instead of the .devcontainer folder.
 		"context": "..",
-		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "Dockerfile"
 	},
+
 	"runArgs": [
 		//"--runtime=nvidia",  # does not seem to be needed?
 		"--gpus",
-		"all"
+		"all",
 	],
-	"features": {
-		//"ghcr.io/devcontainers-contrib/features/black:2": {},
-		//"ghcr.io/devcontainers-contrib/features/pylint:2": {}
-		
-	},
+
 	"extensions": [
 		"ms-azuretools.vscode-docker",
 		"GitHub.copilot",
@@ -24,10 +24,6 @@
 		"GitHub.vscode-pull-request-github"
 
 	],
-	"mounts": [
-		"source=/my/local/folder,target=/container/folder,type=bind",
-		"source=my-named-volume,target=/container/volume,type=volume"
-	  ],
 
 	"postCreateCommand": "./start_jupyter.sh"
 
