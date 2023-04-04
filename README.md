@@ -38,3 +38,5 @@ OS: Windows_NT x64 10.0.19045
 Sandboxed: No
 ```
 
+## Useful stuff
+* https://code.visualstudio.com/docs/devcontainers/create-dev-container#_use-docker-compose
