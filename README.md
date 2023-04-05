@@ -38,5 +38,17 @@ OS: Windows_NT x64 10.0.19045
 Sandboxed: No
 ```
 
-## Useful stuff
+## Useful stuff - vscode
 * https://code.visualstudio.com/docs/devcontainers/create-dev-container#_use-docker-compose
+* https://code.visualstudio.com/docs/devcontainers/tutorial
+* https://containers.dev/implementors/json_reference/ 
+* https://containers.dev/features
+* https://code.visualstudio.com/docs/devcontainers/containers
+
+
+
+* https://docs.docker.com/get-started/
+* https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#fetching-docker-compose-yaml
+
+
+* 
